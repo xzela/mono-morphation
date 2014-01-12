@@ -1,0 +1,19 @@
+{
+  "name": "00_test",
+  "version": "0.0.1",
+  "description": "test example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xzela/mono-morphation"
+  },
+  "author": "Zeph LaFassett",
+  "license": "GPL2",
+  "bugs": {
+    "url": "https://github.com/xzela/mono-morphation/issues"
+  },
+  "homepage": "https://github.com/xzela/mono-morphation"
+}
