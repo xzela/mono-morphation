@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xzela/mono-morphation/issues"
   },
-  "homepage": "https://github.com/xzela/mono-morphation"
+  "homepage": "https://github.com/xzela/mono-morphation",
+  "devDependencies": {
+    "browserify": "~3.19.1"
+  }
 }
