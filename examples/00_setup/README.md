@@ -1,6 +1,6 @@
-# Example 00_test
+# Example 00_setup
 
-Simple test to demonstrate how isomorphic javascript works (basic example). 
+Simple setup and test to demonstrate how isomorphic javascript works (basic example). 
 
 ## To Install
 
