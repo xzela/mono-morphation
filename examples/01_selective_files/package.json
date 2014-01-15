@@ -1,0 +1,19 @@
+{
+  "name": "01_selective_files",
+  "version": "0.0.1",
+  "description": "demonstrates how one can selectively supply browser specific scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests here\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xzela/mono-morphation"
+  },
+  "author": "Zeph LaFassett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xzela/mono-morphation/issues"
+  },
+  "homepage": "https://github.com/xzela/mono-morphation"
+}
