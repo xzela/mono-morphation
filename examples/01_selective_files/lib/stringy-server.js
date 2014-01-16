@@ -1,4 +1,4 @@
 module.exports = function stringy (input) {
-	return input + "!";
+	return input + "(from the server)";
 };
 
