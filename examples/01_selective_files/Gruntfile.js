@@ -6,10 +6,10 @@ module.exports = function (grunt) {
             main: {
                 options: {
                     debug: true
+                },
+                files: {
+                    'bundle.js': 'index.js'
                 }
-            },
-            files: {
-                'bundle.js': 'index.js'
             }
         }
 	});
