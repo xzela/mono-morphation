@@ -52,3 +52,21 @@ Should output:
 
 
 ## Browser side
+
+
+### Which Context?
+
+Context is king? When we run our application how do we know which context we're in? Are we in a `browser`? Do we have access to `process`?
+
+Below, I've added some logic to the `lib/stringy-common.js` file that attempts to determine whether we're in the client browser or we're running a server process:
+
+	var isClient;
+	// horrible way to detect context
+	// don't use this in production
+	try {
+    	// will throw an exception if window is not found
+	    window;
+    	isClient = true;
+	} catch(e) {
+    	isClient = false;
+	}
