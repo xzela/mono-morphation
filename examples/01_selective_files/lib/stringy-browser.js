@@ -1,4 +1,3 @@
-module.exports = function stringy (input) {
+module.exports = function stringy(input) {
 	return input + "(from the browser)";
 };
-
