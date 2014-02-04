@@ -18,9 +18,9 @@ To do this, we've created a `Gruntfile.js` file. This holds all of the grunt tas
 Our grunt file has the following task registard:
 
 	browserify: {
-    	main: {
-        	options: {
-            	debug: true
+		main: {
+			options: {
+				debug: true
 			},
 			files: {
 				'bundle.js': 'index.js'
@@ -45,7 +45,7 @@ This task will be triggered when calling:
 ## Server side
 
 	$ node index.js
-	
+
 Should output:
 
 	Hello world: (from the server)
