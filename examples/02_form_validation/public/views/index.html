@@ -1,1 +1,31 @@
-<h1> Hello world </h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form validation</title>
+</head>
+<body>
+	<h1> Form monomorphic validation </h1>
+	<div class="messages">
+		<ul>
+		</ul>
+	</div>
+	<form action="/" methed="POST">
+		<fieldset>
+			<lable for="name">Name:</lable>
+			<input name="name" id="name" type="text" data-message="Names must be between 2 and 64 characters in length" />
+		</fieldset>
+		<fieldset>
+			<lable for="email">Email:</lable>
+			<input name="email" id="email" type="text" data-message="Must be a valid email address: aol@aol.com" />
+		</fieldset>
+		<fieldset>
+			<lable for="password">Password:</lable>
+			<input name="password" id="password" type="password" data-message="anything goes!" />
+		</fieldset>
+		<fieldset>
+			<lable for="submit"></lable>
+			<input name="submit" id="submit" type="submit" value="Submit!" />
+		</fieldset>
+	</form>
+</body>
+</html>
