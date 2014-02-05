@@ -5,7 +5,8 @@ var index = function (req, res) {
 };
 
 var post = function (req, res) {
-	validator(req, res);
+	// var json = JSON.parse(req.body);
+	res.json(req.body);
 };
 
 exports.index = index;

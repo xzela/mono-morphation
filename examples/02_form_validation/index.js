@@ -10,6 +10,9 @@ app.configure(function () {
 	app.set('views', __dirname + '/public/views');
 	app.use(express.static(__dirname + '/public'));
 	app.engine('html', require('ejs').renderFile);
+
+	app.use(express.json());
+	app.use(express.bodyParser());
 });
 
 app.get('/', router.index);
